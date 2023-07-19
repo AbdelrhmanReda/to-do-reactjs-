@@ -1,0 +1,38 @@
+.cardWrapper {
+  border: 1px solid black;
+  margin-top: 10px;
+  width:300px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding-left: 10px;
+}
+.mainContainer h1 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.mainContainer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.button {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.button button {
+  margin-right: 10px;
+}
